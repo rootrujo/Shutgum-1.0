@@ -1,0 +1,303 @@
+body {
+  font-family: 'Oswald', sans-serif !important;
+  /*font-weight: 700;*/
+  padding: 0px !important;
+  background-color: #00131E !important;
+  margin: 0px;
+  padding: 0;
+}
+.imagen_card{
+  width: 100%;
+}
+/*COLORS*/
+.naranja{
+  color: #FFB000 !important;
+}
+.verde{
+  color: #00FF73!important;
+}
+.rosa{
+  color: #FF0055!important;
+}
+.azul{
+  color: #00C9FF!important;
+}
+.azul2{
+  color: #00131E!important;
+}
+.blanco{
+  color: white;
+}
+/*GENERALS*/
+.margin_top{
+  margin-top: 100px!important;
+}
+/*Nav bar*/
+.margin_navbar {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+/*NAV_BAR*/
+    /*HOVER*/
+.navbar-nav  li a.one:hover {
+	background-color: #00ff8a !important;
+	border-radius: 10px;
+	color:#001B28 !important;
+  font-size: 18px;
+ }
+ .navbar-nav  li a.two:hover {
+      background-color: #FFBC00 !important;
+      border-radius: 10px;
+			color:#001B28 !important;
+      font-size: 18px;
+  }
+	.navbar-nav  li a.three:hover {
+	     background-color: #FF004F !important;
+	     border-radius: 10px;
+			 color:#001B28 !important;
+       font-size: 18px;
+	 }
+   /*NORMAL*/
+   .navbar-nav  li a {
+   	color: white !important;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1)!important;
+    font-size: 18px;
+    }
+/*HEADER*/
+.fondo_container2{
+  background-image: url(../Images/Image_agency_stock_shutgum_1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+  filter: contrast(120%);
+}
+p.header {
+  font-weight: 300!important;
+  color: #00FF73!important;
+  text-shadow: 3px 3px 5px black;
+  text-transform: uppercase;
+  font-size: 4vw;
+}
+p.header2 {
+  font-weight: 300!important;
+  color: #00FF73!important;
+  text-shadow: 3px 3px 5px black;
+  text-transform: uppercase;
+  font-size: 6vw;
+}
+/*NOSOTROS CONTENT*/
+.margin_sides_color{
+  margin-top: -50px !important;
+  padding: 50px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(150,0,85,1),rgba(255,0,85,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(150,0,85,1),rgba(255,0,85,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(150,0,85,1),rgba(255,0,85,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(150,0,85,1),rgba(255,0,85,1)); /*Standard*/
+  z-index: 5;
+  position: relative;
+}
+p.diferencia{
+  font-size: 8vw;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 500;
+}
+p.diferencia_mobile{
+  font-size: 15vw;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 500;
+}
+p.description{
+  font-family: 'roboto'!important;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+
+/*VIDEO*/
+.fondo_container{
+  /*background-image: url(../images/desktop_image_shutgum.jpg);*/
+  padding-bottom: 50px !important;
+  background-color: white;
+  margin-top:-150px;
+  background-size: 100% 100%;
+  filter: contrast(120%);
+  position: relative;
+  z-index: 3;
+}
+.margen_third{
+  margin-top: 200px;
+}
+p.servicios{
+  font-weight: 500!important;
+  color: #00131E!important;
+  font-size: 70px;
+  line-height: 1;
+}
+p.servicios2{
+  font-weight: 500!important;
+  color: #00131E!important;
+  font-size: 14vw;
+  line-height: 1;
+  letter-spacing: -3;
+  /*filter: drop-shadow(5px 5px 6px black);*/
+}
+p.description2{
+  font-family: 'roboto'!important;
+  font-weight: 300;
+  font-size: 20px;
+  color: #00131E;
+}
+/*{MKT} CONTAINER*/
+.skewedBox1{
+  background-color: #FF0055;
+  padding: 0px 0px 100px 0px;
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+}
+.skewedBox1 >.contenedor1{
+  transform: skew(0deg, 4deg);
+  background-color: #FF0055;
+  padding-top: 50px;
+}
+.ver_mas_rosa{
+  color: #FF0055!important;
+  font-weight: 300!important;
+  font-family: 'oswald'!important;
+  font-size: 30px!important;
+}
+h1.mkt_digital{
+  color: #00131E;
+  font-size: 60px;
+}
+.mktdigital{
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 300;
+}
+.button0{
+  background-color: #00131E!important;
+  border: 0px!important;
+  padding: 5px 50px!important;
+  border-radius: 12px!important;
+}
+.button0:hover{
+  background-color: #77002B!important;
+  border: 0px!important;
+  padding: 5px 50px!important;
+  border-radius: 12px!important;
+}
+/*design CONTAINER*/
+.margin_down{
+  margin-bottom: 180px;
+}
+.disenografico{
+  font-family: 'roboto';
+  font-size: 14px;
+  /*text-align: right;*/
+  font-weight: 300;
+}
+.button2{
+  background-color: #00FF73;
+  border: 0px;
+  padding: 5px 50px;
+  border-radius: 12px;
+}
+.button2:hover{
+  background-color: #098E42;
+  border: 0px;
+  padding: 5px 50px;
+  border-radius: 12px;
+}
+.ver_mas_verde{
+  color: #00131E;
+  font-weight: 300;
+  font-family: 'oswald';
+  font-size: 30px;
+}
+/*{publicidad} CONTAINER*/
+.skewedBox2{
+  background-color: #FFB000;
+  margin: 60px 0px 0px 0px;
+  padding: 5px 0px 50px 0px;
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+}
+.skewedBox2 >.contenedor2{
+  transform: skew(0deg, 4deg);
+  padding-top: 100px;
+}
+.ver_mas_naranja{
+  color: #FFB000;
+  font-weight: 300;
+  font-family: 'oswald';
+  font-size: 30px;
+}
+h1.mkt_digital{
+  color: #00131E;
+  font-size: 60px;
+  margin:0px;
+}
+.mktdigital{
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 300;
+}
+.button3{
+  background-color: #00131E;
+  border: 0px;
+  padding: 5px 50px;
+  border-radius: 12px;
+}
+.button3:hover{
+  background-color: #604000;
+  border: 0px;
+  padding: 5px 50px;
+  border-radius: 12px;
+}
+.margin_down2{
+  margin-bottom: 50px;
+}
+/*CONTACTO*/
+.fondo{
+  background-color: #00131E;
+  position:relative;
+  margin-top: -50px;
+  z-index: 5;
+}
+.contacto_texto{
+  color: white;
+  font-family: 'oswald';
+  font-size: 60px;
+  font-weight: 700;
+}
+.icon_mail{
+  font-size: 20px;
+}
+.mail{
+  font-size: 17px;
+  font-family: 'oswald';
+  font-weight:lighter;
+  text-decoration:none;
+}
+.horario{
+  font-size: 17px;
+  font-family: 'oswald';
+  font-weight:300;
+  text-decoration:none;
+}
+a.link {
+    color: #00FF73!important;
+  }
+}
